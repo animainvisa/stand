@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<vehicles>
+	<characteristic>
+		<name>Marca</name>
+		<codname>make</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Modelo</name>
+		<codname>model</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Versão</name>
+		<codname>version</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Ano</name>
+		<codname>year</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Cilindrada</name>
+		<codname>engine</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Combustível</name>
+		<codname>fuel</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Preço</name>
+		<codname>price</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Categoria</name>
+		<codname>category</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Nº de portas</name>
+		<codname>body</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Cor</name>
+		<codname>color</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Kilómetros</name>
+		<codname>kilometres</codname>	
+	</characteristic>
+	<characteristic>
+		<name>Matrícula</name>
+		<codname>regplate</codname>	
+	</characteristic>
+</vehicles>

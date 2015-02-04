@@ -1,0 +1,487 @@
+*
+{
+	font-family: verdana;
+	font-size: 11px;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+* ul 
+{ list-style-type: none; }
+
+body 
+{
+	color: #333333;
+	background: url(bg.jpg) repeat top left;
+}
+
+div#container
+{
+	width: 900px;
+	margin: 20px auto;
+	padding: 7px;
+	
+	background-color: #FFFFFF;
+}
+
+/********************/
+
+div#menu 
+{ 
+	margin-bottom: 20px;
+	padding-bottom: 14px;
+	background: url(border.png) repeat-x bottom left;
+}
+
+div#menu ul
+{
+	padding: 5px 15px 0 15px;
+	background-color: #004A72;	
+	border-bottom: 2px solid #87AADE;
+}
+
+div#menu li 
+{ 
+	padding: 0 10px;
+	display: inline; 
+}
+
+div#menu a
+{
+	color: #FFFFFF;
+	padding: 5px 0;
+	border-bottom: 4px solid transparent;
+	display: inline-block;
+	text-decoration: none;
+}
+
+div#menu #active, 
+div#menu a:hover 
+{ border-bottom: 4px solid #87AADE; }
+
+/********************/
+
+div#vehicles,
+div#vehicle, 
+div#tellafriend, 
+div#askabout, 
+div#services, 
+div#financing, 
+div#company, 
+div#index, 
+div#contactus
+{
+	float: left;
+	padding-left: 30px;
+	width: 640px;
+}
+
+div#vehicles a, 
+div#vehicle a, 
+div#tellafriend a, 
+div#askabout a, 
+div#services a, 
+div#financing a, 
+div#company a, 
+div#index a, 
+div#contactus a
+{
+	color: #004A72;
+	text-decoration: underline;
+}
+
+div#vehicles a:hover, 
+div#vehicle a:hover, 
+div#tellafriend a:hover, 
+div#askabout a:hover, 
+div#services a:hover, 
+div#financing a:hover, 
+div#company a:hover, 
+div#index a:hover, 
+div#contactus a:hover
+{ text-decoration: none; }
+
+/********************/
+
+div#vehicles h2
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+div#vehicles table 
+{
+	margin-left: 20px;
+	padding: 0 5px;
+	border-spacing: 0px;
+	border: 1px solid #87AADE;
+	background: url(tblbg.png) repeat-x top left;
+}
+
+div#vehicles th 
+{ 
+	color: #004A72;
+	font-weight: normal;
+}
+
+div#vehicles th, 
+div#vehicles td
+{
+	text-align: center;
+	padding: 7px;
+}
+
+div#vehicles td
+{ border-top: 1px dotted #87AADE; }
+
+div#vehicles img
+{
+	padding: 1px;
+	border: 1px solid #87AADE;
+}
+
+div#vehicles #pagination 
+{ margin: 10px 5px 0 25px; }
+
+div#vehicles #pagination li 
+{
+	color: #004A72;
+	display: inline;
+}
+
+div#vehicles #pagination a 
+{
+	padding: 2px 5px;
+	color: #FFFFFF;
+	background-color: #004A72;
+	text-decoration: none;
+}
+
+div#vehicles #pagination a:hover 
+{
+	color: #004A72;
+	background-color: #FFFFFF; 
+}
+
+div#vehicles p
+{ margin-left: 20px; }
+
+/********************/
+
+div#vehicle h2
+{
+	color: #004A72;
+	margin-bottom: 10px;
+	font-size: 13px;
+	text-align: right;
+}
+
+div#vehicle #images a
+{
+	float: left;
+	margin-right: 1px;
+}
+
+div#vehicle #images a img 
+{ 
+	padding: 1px;
+	border: 1px solid #87AADE;
+}
+
+div#vehicle #images a:hover img 
+{ border: 1px solid #004A72; }
+
+div#vehicle #images a.clear 
+{ clear: left; }
+
+div#vehicle #links
+{
+	float: left;
+	clear: left;
+	margin: 20px 0 0 10px;
+}
+
+div#vehicle #data 
+{ margin-left: 300px; }
+
+div#vehicle #data dt
+{
+	color: #004A72;
+	padding: 0 2px;
+	border-bottom: 1px solid #87AADE; 
+	font-weight: bold;
+}
+
+div#vehicle #data dd 
+{ padding: 5px 10px; }
+
+/********************/
+
+div#tellafriend fieldset, 
+div#askabout fieldset
+{
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	display: inline;
+}
+
+div#tellafriend legend, 
+div#askabout legend
+{
+	color: #004A72;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div#tellafriend h6, 
+div#askabout h6
+{
+	color: #004A72;
+	margin-bottom: 15px;
+	text-align: right;
+	font-size: 10px;
+}
+
+div#tellafriend label,
+div#tellafriend input, 
+div#askabout label, 
+div#askabout input
+{ display: block; }
+
+div#tellafriend input, 
+div#tellafriend textarea, 
+div#askabout input, 
+div#askabout textarea
+{ margin-bottom: 5px; }
+
+div#tellafriend p#return, 
+div#askabout p#return
+{ margin-bottom: 15px; }
+
+/********************/
+
+div#services h2
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+div#services li
+{ padding: 0 20px 10px 20px; }
+
+/********************/
+
+div#financing h2
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+/********************/
+
+div#company h2
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+div#company img
+{
+	margin: 0 0 5px 10px;
+	padding: 1px;
+	border: 1px solid #87AADE;
+	float: right;
+	position: relative;
+	top: -10px;
+}
+
+div#company p
+{
+	margin-left: 20px;
+	text-indent: 20px;
+	text-align: justify; 
+}
+
+/********************/
+
+div#index #highlight
+{
+	margin-left: 30px;
+	padding: 15px 30px;
+	background-color: #F6F6F6;
+	border: 1px solid #CCCCCC;	 
+	float: left;
+}
+
+div#index #highlight h3
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+div#index #highlight a img 
+{ 
+	padding: 1px;
+	border: 1px solid #87AADE;
+}
+
+div#index #highlight a:hover img 
+{ border: 1px solid #004A72; }
+
+div#index #highlight p
+{
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+div#index #search
+{
+	padding: 15px;
+	background-color: #F6F6F6;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+
+div#index #search h3
+{
+	color: #004A72;
+	margin-bottom: 15px;
+	text-align: center;	
+	font-size: 12px;
+}
+
+div#index #search fieldset
+{ 
+	border: 0;
+	display: inline;
+}
+
+div#index #search label, 
+div#index #search select, 
+div#index #search input
+{ display: block; }
+
+div#index #search select, 
+div#index #search input
+{ margin-bottom: 5px; }
+
+div#index #search #l_yf, 
+div#index #search #l_pf,  
+div#index #search #l_yt, 
+div#index #search #l_pt, 
+div#index #search label.to 
+{ display: inline !important; }
+
+/********************/
+
+div#contactus h2
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	font-size: 13px;
+}
+
+div#contactus address
+{ margin-left: 20px; }
+
+/********************/
+
+
+
+
+
+
+
+
+/********************/
+
+div#latestentries 
+{ 
+	float: right;
+	margin-right: 15px;
+	padding: 15px;
+	
+	background-color: #E0E9F6;
+	border: 1px solid #87AADE;
+}
+
+div#latestentries h3
+{
+	color: #004A72;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+div#latestentries a
+{
+	margin-top: 10px;
+	display: block;
+}
+
+div#latestentries a img 
+{ 
+	padding: 1px;
+	border: 1px solid #87AADE;
+}
+
+div#latestentries a:hover img 
+{ border: 1px solid #004A72; }
+
+div#latestentries p
+{
+	margin-top: 10px;
+	text-align: right;
+}
+
+div#latestentries p a
+{
+	color: #004A72;
+	text-decoration: underline;
+	display: inline;
+}
+
+div#latestentries p a:hover 
+{ text-decoration: none; }
+
+/********************/
+
+div#copyright
+{ 
+	margin-top: 20px;
+	padding: 10px 10px 5px 10px;	
+	background: url(border.png) repeat-x top left;
+}
+
+div#copyright p
+{
+	text-align: center;
+	font-size: 10px;
+}
+
+div#copyright a
+{
+	color: #87aade;
+	text-decoration: underline;
+	font-size: 10px;
+}
+
+div#copyright a:hover 
+{
+	color: #333333;
+	text-decoration: none;
+}

@@ -1,0 +1,3 @@
+PHP 5's ctype library
+PHP 5's gd library (GD 2.0.1 or later (2.0.28 or later is recommended))
+PHP 5's simplexml library

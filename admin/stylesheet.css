@@ -1,0 +1,150 @@
+*
+{
+	font-size: 12px;
+	font-family: verdana;
+}
+
+/*********************************/
+
+a
+{
+	color: #0055D4;
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+/*********************************/
+
+img 
+{
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+}
+
+/*********************************/
+
+form#highlight input { display: inline; }
+
+/*********************************/
+
+div#vehicles 
+{
+	float: left;
+	clear: left;
+	margin-top: 20px;
+}
+
+div#vehicles table 
+{
+	border-spacing: 0;	
+	border: 1px solid #CCCCCC;
+}
+
+div#vehicles th 
+{
+	color: #0055D4;
+	font-weight: normal;
+	border-bottom: 1px dotted #CCCCCC;
+}
+
+div#vehicles th, 
+div#vehicles td
+{
+	background-color: #F7F7F7;
+	text-align: center;
+	padding: 7px;
+}
+
+div#vehicles #pagination 
+{ 
+	float: right;
+	margin-top: 10px; 
+}
+
+div#vehicles #pagination ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#vehicles #pagination li { display: inline; }
+
+div#vehicles #pagination a 
+{
+	padding: 2px 5px;
+	color: #0055D4;
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	text-decoration: none;
+}
+
+div#vehicles #pagination a:hover { background-color: transparent; }
+
+/*********************************/
+
+div#links { float: right; }
+
+div#links ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#links li { padding: 2px 10px; }
+
+div#links span { color: #0055D4; }
+
+/*********************************/
+
+p#back 
+{ 
+	float: right;
+	margin: 0;
+	padding: 2px 10px;
+}
+
+p#back span { color: #0055D4; }
+
+/*********************************/
+
+div#images { margin-top: 30px; }
+
+div#images .image
+{
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	margin: 3px 0;
+}
+
+div#images .image span { color: #AAAAAA; }
+
+/*********************************/
+
+input#l_nv, 
+input#l_uv, 
+label.radio
+{ display: inline !important; }
+
+input#l_nv, 
+input#l_uv { vertical-align: sub; }
+
+input, 
+textarea { margin-bottom: 5px; }
+
+/*********************************/
+
+form { float: left; }
+
+fieldset { border: 1px solid #CCCCCC; }
+
+legend { color: #0055D4; }
+
+label, 
+input,
+select { display: block; }
+
+/*********************************/
